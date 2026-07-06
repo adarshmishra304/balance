@@ -27,12 +27,15 @@ class BalanceApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
           brightness: Brightness.light,
         ),
-        appBarTheme: const AppBarTheme(
-          centerTitle: true,
-          backgroundColor: Colors.deepPurple,
-          foregroundColor: Colors.white,
+      ),
+      darkTheme: ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.deepPurple,
+          brightness: Brightness.dark,
         ),
       ),
+      themeMode: ThemeMode.system,
       home: const HomeScreen(),
     );
   }
