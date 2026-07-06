@@ -1,16 +1,55 @@
-# balance_calculator
+# Balance Manager 💸
 
-A new Flutter project.
+A simple and efficient Flutter application to track money transactions between you and your friends. Never forget who owes you money or who you need to pay back!
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+-   **Friend Management**: Add and remove friends from your tracking list.
+-   **Transaction Tracking**: Record every time you give (lend) or receive (borrow) money.
+-   **Balance Dashboard**: 
+    -   **Green**: Money you've given (friend owes you).
+    -   **Red**: Money you've received (you owe them).
+-   **Detailed History**: View a chronological list of all transactions for each friend.
+-   **Smart Summary**: See your total "Owed to Me" and "I Owe" balances right on the home screen.
+-   **Settle Up**: Quickly clear the balance with a single tap once a debt is paid.
+-   **Persistent Storage**: All data is saved locally on your device using SQLite.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Built With
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-   **Flutter**: UI Framework.
+-   **Provider**: State management.
+-   **Sqflite**: Local database for data persistence.
+-   **Intl**: For date and currency formatting.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Home Screen | Friend Details | Add Transaction |
+| :---: | :---: | :---: |
+| Overview of all friends and total balances. | History of specific transactions. | Easy input for new records. |
+
+## 🏁 Getting Started
+
+### Prerequisites
+-   [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
+-   An Android/iOS emulator or a physical device.
+
+### Installation
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/balance_calculator.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd balance_calculator
+    ```
+3.  Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4.  Run the app:
+    ```bash
+    flutter run
+    ```
+
+## 📝 License
+This project is open source. Feel free to use and modify it!
