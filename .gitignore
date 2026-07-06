@@ -1,0 +1,66 @@
+# Flutter-related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Android-related
+**/android/**/generated/
+**/android/project.properties
+**/android/local.properties
+**/android/out/
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS/macOS-related
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.[mh]
+**/macos/Flutter/Generated.xcconfig
+**/macos/Flutter/flutter_export_environment.sh
+**/macos/Runner/GeneratedPluginRegistrant.swift
+**/ios/.generated/
+**/macos/.generated/
+Pods/
+.bundle/
+*.flavorconfig
+
+# Desktop-related
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/windows/CMakeCache.txt
+**/windows/CMakeFiles/
+**/windows/CMakeSettings.json
+**/windows/lib/
+**/windows/out/
+**/windows/runner/GeneratedPluginRegistrant.h
+**/windows/runner/GeneratedPluginRegistrant.cpp
+**/windows/x64/
+
+# Web-related
+lib/generated_plugin_registrant.dart
+
+# IDE-related
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+
+# OS-related
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
