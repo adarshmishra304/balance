@@ -97,7 +97,7 @@ class _FriendDetailScreenState extends State<FriendDetailScreen> {
                 final transactions = snapshot.data ?? [];
 
                 if (transactions.isEmpty) {
-                  return const Center(child: Text('No transactions yet.'));
+                  return const Center(child: Text('No transactions '));
                 }
 
                 return ListView.builder(
@@ -175,7 +175,11 @@ class _FriendDetailScreenState extends State<FriendDetailScreen> {
             children: [
               TextField(
                 controller: amountController,
-                decoration: const InputDecoration(labelText: 'Amount'),
+                decoration: const InputDecoration(
+                    labelText: 'Amount',
+                    hintText : 'enter the amount'
+                ),
+
                 keyboardType: TextInputType.number,
                 autofocus: true,
               ),
