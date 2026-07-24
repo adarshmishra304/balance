@@ -36,7 +36,7 @@ A simple and efficient Flutter application to track money transactions between y
 ### Installation
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/balance_calculator.git
+    git clone https://github.com/adarshmishra304/balance_calculator.git
     ```
 2.  Navigate to the project directory:
     ```bash
